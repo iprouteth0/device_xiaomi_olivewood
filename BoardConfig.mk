@@ -148,7 +148,7 @@ BOARD_KERNEL_CMDLINE := console=ttyMSM0,115200,n8 androidboot.console=ttyMSM0 an
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_PAGESIZE :=  2048
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
-#BOARD_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/dtbo.img
+#BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
 #TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm439
 #TARGET_KERNEL_CONFIG := olive-perf_defconfig
 TARGET_KERNEL_ARCH := arm64
