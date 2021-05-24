@@ -15,16 +15,16 @@ $(call inherit-product, device/xiaomi/olivewood/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Bootanimation res
-TARGET_BOOT_ANIMATION_RES := 720
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device Maintainer
-DEVICE_MAINTAINER := AOiSPdev
+DEVICE_MAINTAINER := sdm439dev
 
 # Official dotOS
-DOT_OFFICIAL := true
+#DOT_OFFICIAL := true
 
 # FaceUnlock
-TARGET_FACE_UNLOCK_SUPPORTED := true
+#TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_olivewood
