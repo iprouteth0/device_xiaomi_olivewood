@@ -22,6 +22,11 @@ TARGET_2ND_CPU_VARIANT := cortex-a53
 # Binder
 TARGET_USES_64_BIT_BINDER := true
 
+BOARD_ROOT_EXTRA_SYMLINKS := \
+    /mnt/vendor/persist:/persist \
+    /vendor/dsp:/dsp \
+    /vendor/firmware_mnt:/firmware
+
 # Board
 TARGET_BOARD_SUFFIX := _64
 TARGET_BOARD_PLATFORM := msm8937
