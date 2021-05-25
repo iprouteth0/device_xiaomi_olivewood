@@ -3471,7 +3471,7 @@ product/lib64/vendor.qti.voiceprint@1.0.so
 vendor/lib/vendor.qti.voiceprint@1.0.so
 vendor/lib64/vendor.qti.voiceprint@1.0.so
 
-# WFD
+## WFD
 bin/wfdservice
 etc/init/wfdservice.rc
 etc/wfdconfig.xml
@@ -3500,20 +3500,15 @@ lib64/libwfdnative.so
 -priv-app/WfdService/WfdService.apk
 product/lib/vendor.qti.hardware.sigma_miracast@1.0.so
 product/lib64/vendor.qti.hardware.sigma_miracast@1.0.so
-vendor/bin/wifidisplayhalservice
-vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc
-vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so
-vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so
-vendor/lib/libmiracast.so
-vendor/lib/libwfdcommonutils_proprietary.so
-vendor/lib/libwfdhaldsmanager.so
-vendor/lib/libwfdhdcpcp.so
-vendor/lib/libwfdmmservice.so
-vendor/lib/libwfdmodulehdcpsession.so
-vendor/lib/vendor.qti.hardware.sigma_miracast@1.0.so
-vendor/lib64/libmiracast.so
-vendor/lib64/libwfdhdcpcp.so
-vendor/lib64/vendor.qti.hardware.sigma_miracast@1.0.so
+
+# WiFi
+bin/iwpriv
+-product/framework/vendor.qti.hardware.wigig.netperftuner-V1.0-java.jar
+-product/framework/vendor.qti.hardware.wigig.supptunnel-V1.0-java.jar
+product/lib/vendor.qti.hardware.wigig.netperftuner@1.0.so
+product/lib/vendor.qti.hardware.wigig.supptunnel@1.0.so
+product/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so
+product/lib64/vendor.qti.hardware.wigig.supptunnel@1.0.so
 
 # rootdir
 vendor/bin/charge_logger
