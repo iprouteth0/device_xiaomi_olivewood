@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/olivewood/device.mk)
 
 # Inherit some dotOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 # Bootanimation res
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -27,7 +27,7 @@ DEVICE_MAINTAINER := sdm439dev
 #TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_olivewood
+PRODUCT_NAME := arrow_olivewood
 PRODUCT_DEVICE := olivewood
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 8 Series
