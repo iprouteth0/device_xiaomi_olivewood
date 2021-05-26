@@ -15,9 +15,9 @@ budget smartphone from Xiaomi.
  SoC | Qualcomm MSM8937 Snapdragon 439
  CPU | Octa core (2.0 GHz)
  GPU | Adreno 505
- Memory | 2/3 GB RAM
+ Memory | 2/3/4 GB RAM
  Shipped Android Version | 9.0
- Storage | 16/32 GB
+ Storage | 16/32/64 GB
  MicroSD | Up to 512 GB (dedicated slot)
  Battery | Non-removable Li-Polymer 4000 mAh battery
  Dimensions | 146.3 x 70.4 x 9.6 mm
